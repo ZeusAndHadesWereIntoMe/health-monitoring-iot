@@ -1,0 +1,10 @@
+do the wirings like this:
+Device	    Connects to	    ESP32
+MAX30100	     VIN	         5V
+MPU6050        VCC         3.3V
+Both	         GND	        GND
+MAX30100	     SDA	      GPIO21
+MPU6050	       SDA	      GPI025
+MAX30100	     SCL	      GPIO22
+MPU6050	       SCL	      GPIO26
+
